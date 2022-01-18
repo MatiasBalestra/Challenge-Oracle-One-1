@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma Machine</title>
+    <link rel="stylesheet" href="../enigma2.0/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <div class="titulo">
+        <h1>¡Bienvenido a Enigma!</h1>    
+    </div>
+
+
+    <div class="general">
+
+        <div class="cuadrado">
+            <h2>Ingrese su texto</h2>
+            <br>
+            <textarea id="campo1" name="textarea" rows="10" cols="50" onchange='this.value=this.value.toLowerCase();'>escriba algo aquí...</textarea>
+            <br>
+            <button onclick="btnEncriptar()">Encriptar</button>
+            <button onclick="btnDesEncriptar()">Desencriptar</button>
+        </div>
+
+
+        <div class="cuadrado">
+            <h2>Retire su texto</h2>
+            <br>
+            <textarea id="campo2" name="textarea" rows="10" cols="50" onchange='this.value=this.value.toLowerCase();'>escriba algo aquí...</textarea>
+            <br>
+            <button onclick="btnCopiar()">Copiar</button>
+            <button onclick="btnPegar()">Copiar y Pegar</button>
+        </div>
+
+    </div>
+
+    
+
+
+
+
+
+    <script src="../enigma2.0/script.js"></script>
+
+
+</body>
+
+
+<footer>Rusher Enigma Machine © 2022</footer>
+
+
+
+
+
+</html>

@@ -1,0 +1,37 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: red;
+}
+
+text,
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  padding: 2rem;
+}
+
+h2 {
+  color: yellowgreen;
+  text-align: center;
+}
+
+.general {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  flex: 1 1 200px;
+}
+
+.cuadrado {
+  margin: 25px;
+}
+
+footer {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 240px;
+}
